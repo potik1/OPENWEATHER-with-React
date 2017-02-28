@@ -112,7 +112,7 @@
 	__webpack_require__(257);
 	$(document).foundation();
 
-	//loading app.css
+	//loading app.scss
 	__webpack_require__(261);
 
 	ReactDOM.render(React.createElement(
@@ -27250,8 +27250,8 @@
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/css-loader/index.js!./app.css", function() {
-				var newContent = require("!!./../../node_modules/css-loader/index.js!./app.css");
+			module.hot.accept("!!./../../node_modules/css-loader/index.js!./../../node_modules/sass-loader/lib/loader.js!./app.scss", function() {
+				var newContent = require("!!./../../node_modules/css-loader/index.js!./../../node_modules/sass-loader/lib/loader.js!./app.scss");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -27269,7 +27269,7 @@
 
 
 	// module
-	exports.push([module.id, ".page-title {\n    margin-top:100px;\n    margin-bottom: 50px;\n}\n\ninput [type=search] {\n    box-shadow:none;\n}", ""]);
+	exports.push([module.id, ".page-title {\n  color: black;\n  margin-top: 100px;\n  margin-bottom: 50px; }\n\ninput [type=search] {\n  box-shadow: none; }\n", ""]);
 
 	// exports
 
