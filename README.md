@@ -1,5 +1,4 @@
 # OPENWEATHER-with-React
-* nmp install
-* webpack
-* node server.js
+* yarn
+* yarn start
 * http://localhost:3000
